@@ -1,30 +1,31 @@
-🕸️ Deep Web Scraper 🕵️‍♂️
+# 🕸️ Deep Web Scraper 🕵️‍♂️
 
 A powerful Python-based scraper that explores an entire website — crawling, clicking, expanding, and extracting all meaningful content, even from dynamic elements like dropdowns, buttons, and AJAX-loaded sections.
 
-🚀 Features
+### 🚀 Features
 
-✅ Clicks through dropdowns, buttons, and expandable sections
+- ✅ Clicks through dropdowns, buttons, and expandable sections
 
-✅ Handles JavaScript-heavy websites using Playwright
+- ✅ Handles JavaScript-heavy websites using Playwright
 
-✅ Follows internal links recursively (site-wide crawl)
+- ✅ Follows internal links recursively (site-wide crawl)
 
-✅ Extracts all text content (headings, paragraphs, lists)
+- ✅ Extracts all text content (headings, paragraphs, lists)
 
-✅ Filters and avoids duplicate pages
+- ✅ Filters and avoids duplicate pages
 
-✅ Optional delay to wait for AJAX content
+- ✅ Optional delay to wait for AJAX content
 
-🧰 Tech Stack
 
-🐍 Python 3
+### 🧰 Tech Stack
 
-🎭 Playwright for headless browser automation
+- 🐍 Python 3
 
-🍜 BeautifulSoup (optional for advanced parsing)
+- 🎭 Playwright for headless browser automation
 
-📂 urlparse and urljoin for URL handling
+- 🍜 BeautifulSoup (optional for advanced parsing)
+
+- 📂 urlparse and urljoin for URL handling
 
 
 
@@ -35,7 +36,7 @@ pip install -r requirements.txt
 playwright install
 ```
 
-🧑‍💻 Usage
+### 🧑‍💻 Usage
 ```
 python main.py
 ```
@@ -47,7 +48,7 @@ url = "https://example.com"
 result = deep_scrape(url, max_pages=50)
 ```
 
-📄 Output
+### 📄 Output
 
 Scraped content is saved to:
 
@@ -56,7 +57,7 @@ scraped_content.txt
 ```
 Each section is labeled by its source URL for traceability.
 
-⚙️ Configuration
+### ⚙️ Configuration
 
 You can tweak the following:
 
@@ -67,7 +68,7 @@ You can tweak the following:
 | headless	   | Set False to see browser UI (debug)    |
 
 
-🔍 Example Use Cases
+### 🔍 Example Use Cases
 
 - 🔎 Research & content analysis
 
@@ -77,15 +78,18 @@ You can tweak the following:
 
 - 📚 Competitive website analysis
 
-⚠️ Ethical Use Disclaimer
+### ⚠️ Ethical Use Disclaimer
+
 Please respect robots.txt and avoid scraping websites without permission.
 This tool is intended for ethical, educational, and personal use only.
 
-🤝 Contributing
+### 🤝 Contributing
+
 Got improvements or new features in mind?
 Feel free to open an issue or submit a PR! 🎉
 
-🧠 Author
+### 🧠 Author
+
 Made with 💻 by [Deep Gupta]
 
 🐦 @deepgupta06
