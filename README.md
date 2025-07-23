@@ -30,7 +30,7 @@ A powerful Python-based scraper that explores an entire website — crawling, cl
 
 
 ```
-git clone https://github.com/yourusername/deep-web-scraper.git
+git clone https://github.com/deepgupta06/deep-web-scraper.git
 cd deep-web-scraper
 pip install -r requirements.txt
 playwright install
