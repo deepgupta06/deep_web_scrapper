@@ -62,10 +62,10 @@ You can tweak the following:
 
 ```
 ---------------------------------------------------------------
-Config            |          Description                       |
+Config            :|          Description                       |
 ---------------------------------------------------------------|
-max_pages	      |      Max number of pages to crawl          |
-timeout	          |      Wait time for each page to load       |
-headless	      |      Set False to see browser UI (debug)   |
+max_pages	      :|      Max number of pages to crawl          |
+timeout	          :|      Wait time for each page to load       |
+headless	      :|      Set False to see browser UI (debug)   |
 ---------------------------------------------------------------
 ```
