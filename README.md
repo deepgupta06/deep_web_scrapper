@@ -61,6 +61,12 @@ Each section is labeled by its source URL for traceability.
 You can tweak the following:
 
 ```
+| Config       | Center Aligned | 
+|:-------------|:--------------------------------------:|
+| max_pages    | Max number of pages to crawl           |
+| timeout	   | Wait time for each page to load        |
+| headless	   | Set False to see browser UI (debug)    |
+
 ---------------------------------------------------------------
 Config            :|          Description                       |
 ---------------------------------------------------------------|
