@@ -66,14 +66,27 @@ You can tweak the following:
 | timeout	   | Wait time for each page to load        |
 | headless	   | Set False to see browser UI (debug)    |
 
-```
 
+🔍 Example Use Cases
 
----------------------------------------------------------------
-Config            :|          Description                       |
----------------------------------------------------------------|
-max_pages	      :|      Max number of pages to crawl          |
-timeout	          :|      Wait time for each page to load       |
-headless	      :|      Set False to see browser UI (debug)   |
----------------------------------------------------------------
-```
+- 🔎 Research & content analysis
+
+- 🧠 Feed to LangChain + Ollama RAG pipeline
+
+- 🤖 Dataset generation for fine-tuning models
+
+- 📚 Competitive website analysis
+
+⚠️ Ethical Use Disclaimer
+Please respect robots.txt and avoid scraping websites without permission.
+This tool is intended for ethical, educational, and personal use only.
+
+🤝 Contributing
+Got improvements or new features in mind?
+Feel free to open an issue or submit a PR! 🎉
+
+🧠 Author
+Made with 💻 by [Deep Gupta]
+
+🐦 @deepgupta06
+
